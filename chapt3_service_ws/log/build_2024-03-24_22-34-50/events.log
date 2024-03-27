@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.001313] (example_service_rclcpp) JobQueued: {'identifier': 'example_service_rclcpp', 'dependencies': OrderedDict()}
+[0.001407] (example_service_rclcpp) JobStarted: {'identifier': 'example_service_rclcpp'}
+[0.027309] (example_service_rclcpp) JobProgress: {'identifier': 'example_service_rclcpp', 'progress': 'cmake'}
+[0.030640] (example_service_rclcpp) JobProgress: {'identifier': 'example_service_rclcpp', 'progress': 'build'}
+[0.032395] (example_service_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp', '--', '-j2', '-l2'], 'cwd': '/home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'max'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/max/ros2fish/chapt3_service'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1152'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd50370673992f8599fee6a265ff5a09'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/max/ros2fish/chapt3_service/chapt3_service_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxubuntu:@/tmp/.ICE-unix/1152,unix/maxubuntu:/tmp/.ICE-unix/1152'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0658ae1_8ba4_4d03_b4ff_6a3d30d1f57c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HL9ZK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7352598631.sock'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd50370673992f8599fee6a265ff5a09'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp:/opt/ros/humble')]), 'shell': False}
+[0.107177] (-) TimerEvent: {}
+[0.215909] (-) TimerEvent: {}
+[0.232931] (example_service_rclcpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.318486] (-) TimerEvent: {}
+[0.419590] (-) TimerEvent: {}
+[0.521957] (-) TimerEvent: {}
+[0.612417] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.622312] (-) TimerEvent: {}
+[0.722073] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.722378] (-) TimerEvent: {}
+[0.730992] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.752772] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.789179] (example_service_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.822546] (-) TimerEvent: {}
+[0.839656] (example_service_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.923223] (-) TimerEvent: {}
+[0.988539] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.992593] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.024740] (-) TimerEvent: {}
+[1.125724] (-) TimerEvent: {}
+[1.226413] (-) TimerEvent: {}
+[1.311423] (example_service_rclcpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.327645] (-) TimerEvent: {}
+[1.432672] (-) TimerEvent: {}
+[1.534861] (-) TimerEvent: {}
+[1.637466] (-) TimerEvent: {}
+[1.721518] (example_service_rclcpp) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.737753] (-) TimerEvent: {}
+[1.842399] (-) TimerEvent: {}
+[1.942952] (-) TimerEvent: {}
+[2.044684] (-) TimerEvent: {}
+[2.076675] (example_service_rclcpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.145053] (-) TimerEvent: {}
+[2.223734] (example_service_rclcpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.224133] (example_service_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.224279] (example_service_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.225843] (example_service_rclcpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.228626] (example_service_rclcpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.228848] (example_service_rclcpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.229612] (example_service_rclcpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.235145] (example_service_rclcpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.246132] (-) TimerEvent: {}
+[2.328680] (example_service_rclcpp) StdoutLine: {'line': b'-- Generating done\n'}
+[2.337873] (example_service_rclcpp) StdoutLine: {'line': b'-- Build files have been written to: /home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp\n'}
+[2.350795] (-) TimerEvent: {}
+[2.446630] (example_service_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_client_01\x1b[0m\n'}
+[2.454756] (-) TimerEvent: {}
+[2.455320] (example_service_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_server_01\x1b[0m\n'}
+[2.461809] (example_service_rclcpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o\x1b[0m\n'}
+[2.557695] (-) TimerEvent: {}
+[2.566415] (example_service_rclcpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/service_server_01.dir/src/service_server_01.cpp.o\x1b[0m\n'}
+[2.660622] (-) TimerEvent: {}
+[2.761318] (-) TimerEvent: {}
+[2.873614] (-) TimerEvent: {}
+[2.977227] (-) TimerEvent: {}
+[3.078702] (-) TimerEvent: {}
+[3.179659] (-) TimerEvent: {}
+[3.284264] (-) TimerEvent: {}
+[3.404074] (-) TimerEvent: {}
+[3.506188] (-) TimerEvent: {}
+[3.608500] (-) TimerEvent: {}
+[3.730545] (-) TimerEvent: {}
+[3.843740] (-) TimerEvent: {}
+[3.957476] (-) TimerEvent: {}
+[4.061737] (-) TimerEvent: {}
+[4.166613] (-) TimerEvent: {}
+[4.272887] (-) TimerEvent: {}
+[4.387214] (-) TimerEvent: {}
+[4.500564] (-) TimerEvent: {}
+[4.604032] (-) TimerEvent: {}
+[4.706516] (-) TimerEvent: {}
+[4.812319] (-) TimerEvent: {}
+[4.932671] (-) TimerEvent: {}
+[5.035113] (-) TimerEvent: {}
+[5.147121] (-) TimerEvent: {}
+[5.262544] (-) TimerEvent: {}
+[5.364230] (-) TimerEvent: {}
+[5.471970] (-) TimerEvent: {}
+[5.581821] (-) TimerEvent: {}
+[5.690074] (-) TimerEvent: {}
+[5.792578] (-) TimerEvent: {}
+[5.900343] (-) TimerEvent: {}
+[6.001752] (-) TimerEvent: {}
+[6.116317] (-) TimerEvent: {}
+[6.220007] (-) TimerEvent: {}
+[6.321344] (-) TimerEvent: {}
+[6.422275] (-) TimerEvent: {}
+[6.522878] (-) TimerEvent: {}
+[6.630827] (-) TimerEvent: {}
+[6.732703] (-) TimerEvent: {}
+[6.852775] (-) TimerEvent: {}
+[6.957689] (-) TimerEvent: {}
+[7.058531] (-) TimerEvent: {}
+[7.171458] (-) TimerEvent: {}
+[7.272480] (-) TimerEvent: {}
+[7.374557] (-) TimerEvent: {}
+[7.482039] (-) TimerEvent: {}
+[7.586671] (-) TimerEvent: {}
+[7.694617] (-) TimerEvent: {}
+[7.804540] (-) TimerEvent: {}
+[7.905732] (-) TimerEvent: {}
+[8.006757] (-) TimerEvent: {}
+[8.109111] (-) TimerEvent: {}
+[8.214335] (-) TimerEvent: {}
+[8.315159] (-) TimerEvent: {}
+[8.426412] (-) TimerEvent: {}
+[8.532911] (-) TimerEvent: {}
+[8.642322] (-) TimerEvent: {}
+[8.756643] (-) TimerEvent: {}
+[8.862803] (-) TimerEvent: {}
+[8.964603] (-) TimerEvent: {}
+[9.071285] (-) TimerEvent: {}
+[9.178237] (-) TimerEvent: {}
+[9.282192] (-) TimerEvent: {}
+[9.383179] (-) TimerEvent: {}
+[9.488997] (-) TimerEvent: {}
+[9.597727] (-) TimerEvent: {}
+[9.707521] (-) TimerEvent: {}
+[9.818024] (-) TimerEvent: {}
+[9.929895] (-) TimerEvent: {}
+[10.035979] (-) TimerEvent: {}
+[10.133202] (example_service_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/ros2fish/chapt3_service/chapt3_service_ws/src/example_service_rclcpp/src/service_server_01.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KServiceServer01::ServiceServer01(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.135592] (example_service_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/ros2fish/chapt3_service/chapt3_service_ws/src/example_service_rclcpp/src/service_server_01.cpp:17:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kadd_ints_server\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kadd_ints_server_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.136272] (-) TimerEvent: {}
+[10.141097] (example_service_rclcpp) StderrLine: {'line': b'   17 |         \x1b[01;31m\x1b[Kadd_ints_server\x1b[m\x1b[K = this->create_service<example_interfaces::srv::AddTwoInts>(\n'}
+[10.141332] (example_service_rclcpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.141433] (example_service_rclcpp) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kadd_ints_server_\x1b[m\x1b[K\n'}
+[10.237118] (-) TimerEvent: {}
+[10.346725] (-) TimerEvent: {}
+[10.454658] (-) TimerEvent: {}
+[10.555827] (-) TimerEvent: {}
+[10.656567] (-) TimerEvent: {}
+[10.757100] (-) TimerEvent: {}
+[10.830821] (example_service_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable service_client_01\x1b[0m\n'}
+[10.857763] (-) TimerEvent: {}
+[10.960233] (-) TimerEvent: {}
+[11.063513] (-) TimerEvent: {}
+[11.165919] (-) TimerEvent: {}
+[11.267396] (-) TimerEvent: {}
+[11.369759] (-) TimerEvent: {}
+[11.471575] (-) TimerEvent: {}
+[11.572288] (-) TimerEvent: {}
+[11.607142] (example_service_rclcpp) StdoutLine: {'line': b'[ 75%] Built target service_client_01\n'}
+[11.673555] (-) TimerEvent: {}
+[11.776331] (-) TimerEvent: {}
+[11.876892] (-) TimerEvent: {}
+[11.882116] (example_service_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/service_server_01.dir/build.make:76\xef\xbc\x9aCMakeFiles/service_server_01.dir/src/service_server_01.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[11.882968] (example_service_rclcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/service_server_01.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[11.887047] (example_service_rclcpp) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[11.894284] (example_service_rclcpp) CommandEnded: {'returncode': 2}
+[11.977531] (-) TimerEvent: {}
+[12.007866] (example_service_rclcpp) JobEnded: {'identifier': 'example_service_rclcpp', 'rc': 2}
+[12.019075] (-) EventReactorShutdown: {}

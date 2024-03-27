@@ -1,0 +1,31 @@
+[0.047s] Invoking command in '/home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp -- -j2 -l2
+[0.308s] [35m[1mConsolidate compiler generated dependencies of target service_server_01[0m
+[0.362s] [ 25%] [32mBuilding CXX object CMakeFiles/service_server_01.dir/src/service_server_01.cpp.o[0m
+[0.363s] [ 50%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[6.387s] [ 75%] [32m[1mLinking CXX executable service_server_01[0m
+[6.481s] [100%] [32m[1mLinking CXX executable service_client_01[0m
+[6.987s] [100%] Built target service_client_01
+[6.991s] [100%] Built target service_server_01
+[7.021s] Invoked command in '/home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp -- -j2 -l2
+[7.099s] Invoking command in '/home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp
+[7.114s] -- Install configuration: ""
+[7.117s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+[7.119s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+[7.121s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+[7.124s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+[7.124s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+[7.124s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+[7.124s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+[7.125s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+[7.125s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+[7.125s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+[7.125s] -- Installing: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+[7.126s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+[7.127s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+[7.127s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+[7.127s] -- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
+[7.132s] -- Installing: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+[7.132s] -- Set runtime path of "/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01" to ""
+[7.133s] -- Installing: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01
+[7.135s] -- Set runtime path of "/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01" to ""
+[7.139s] Invoked command in '/home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp

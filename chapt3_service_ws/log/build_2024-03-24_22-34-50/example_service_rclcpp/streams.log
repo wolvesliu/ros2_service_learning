@@ -1,0 +1,38 @@
+[0.033s] Invoking command in '/home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp -- -j2 -l2
+[0.232s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.611s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.721s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.730s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.752s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.788s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.838s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.987s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.991s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.310s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.720s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.075s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.223s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.223s] -- Configured cppcheck include dirs: 
+[2.223s] -- Configured cppcheck exclude dirs and/or files: 
+[2.225s] -- Added test 'lint_cmake' to check CMake code style
+[2.227s] -- Added test 'uncrustify' to check C / C++ code style
+[2.227s] -- Configured uncrustify additional arguments: 
+[2.228s] -- Added test 'xmllint' to check XML markup files
+[2.234s] -- Configuring done
+[2.327s] -- Generating done
+[2.337s] -- Build files have been written to: /home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp
+[2.445s] [35m[1mConsolidate compiler generated dependencies of target service_client_01[0m
+[2.454s] [35m[1mConsolidate compiler generated dependencies of target service_server_01[0m
+[2.461s] [ 25%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[2.565s] [ 50%] [32mBuilding CXX object CMakeFiles/service_server_01.dir/src/service_server_01.cpp.o[0m
+[10.134s] [01m[K/home/max/ros2fish/chapt3_service/chapt3_service_ws/src/example_service_rclcpp/src/service_server_01.cpp:[m[K In constructor ‘[01m[KServiceServer01::ServiceServer01(std::string)[m[K’:
+[10.135s] [01m[K/home/max/ros2fish/chapt3_service/chapt3_service_ws/src/example_service_rclcpp/src/service_server_01.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_ints_server[m[K’ was not declared in this scope; did you mean ‘[01m[Kadd_ints_server_[m[K’?
+[10.140s]    17 |         [01;31m[Kadd_ints_server[m[K = this->create_service<example_interfaces::srv::AddTwoInts>(
+[10.140s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[10.140s]       |         [32m[Kadd_ints_server_[m[K
+[10.830s] [ 75%] [32m[1mLinking CXX executable service_client_01[0m
+[11.606s] [ 75%] Built target service_client_01
+[11.881s] gmake[2]: *** [CMakeFiles/service_server_01.dir/build.make:76：CMakeFiles/service_server_01.dir/src/service_server_01.cpp.o] 错误 1
+[11.882s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/service_server_01.dir/all] 错误 2
+[11.886s] gmake: *** [Makefile:146：all] 错误 2
+[11.893s] Invoked command in '/home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/max/ros2fish/chapt3_service/chapt3_service_ws/build/example_service_rclcpp -- -j2 -l2

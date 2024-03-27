@@ -1,0 +1,17 @@
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01

@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target service_server_01[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/service_server_01.dir/src/service_server_01.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable service_server_01[0m
+[100%] [32m[1mLinking CXX executable service_client_01[0m
+[100%] Built target service_client_01
+[100%] Built target service_server_01
+-- Install configuration: ""
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+-- Installing: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+-- Up-to-date: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
+-- Installing: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+-- Set runtime path of "/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01" to ""
+-- Installing: /home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01
+-- Set runtime path of "/home/max/ros2fish/chapt3_service/chapt3_service_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01" to ""
